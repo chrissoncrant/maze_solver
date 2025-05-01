@@ -1,5 +1,6 @@
 from graphics import Window
 from cell import Cell
+from maze import Maze
 from utilities import draw_cells
 
 import random
@@ -17,13 +18,18 @@ def main():
 
     # DRAW CELL TEST
     # draw_cells(2, 100, win, 50)
-    c_1 = Cell(50, 50, 100, 100, win)
-    c_2 = Cell(100, 100, 150, 150, win)
+    # c_1 = Cell(50, 50, 100, 100, win)
+    # c_2 = Cell(100, 100, 150, 150, win)
 
-    c_1.draw()
-    c_2.draw()
+    # c_1.draw()
+    # c_2.draw()
 
-    c_1.draw_move(c_2, True)
+    # c_1.draw_move(c_2, True)
+
+    # DRAW MAZE TEST
+    maze = Maze(50, 10, 3, 2, 50, 100, win)
+
+
     
     win.wait_for_close()
 
