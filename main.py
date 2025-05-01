@@ -1,4 +1,5 @@
-from window import Window, Point, Line, Cell
+from graphics import Window
+from cell import Cell
 from utilities import draw_cells
 
 import random

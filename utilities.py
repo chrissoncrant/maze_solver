@@ -1,4 +1,4 @@
-from window import Cell
+from cell import Cell
 
 def draw_cells(grid_size, cell_size, window, starting_point=0):
     col_count = 1
