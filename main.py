@@ -8,7 +8,7 @@ import random
 def main():
     print("Main Function Running...")
 
-    win = Window(800, 600)
+    win = Window(1200, 600)
 
 
     # DRAW LINE TEST
@@ -18,11 +18,11 @@ def main():
 
     # DRAW CELL TEST
     # draw_cells(2, 100, win, 50)
-    # c_1 = Cell(50, 50, 100, 100, win)
-    # c_2 = Cell(100, 100, 150, 150, win)
+    # c_1 = Cell(win)
+    # c_2 = Cell(win)
 
-    # c_1.draw()
-    # c_2.draw()
+    # c_1.draw(50, 50, 100, 100)
+    # c_2.draw(100, 100, 150, 150)
 
     # c_1.draw_move(c_2, True)
 

@@ -5,14 +5,16 @@ class Window:
         self.__root = Tk()
         self.__root.title = "Maze Solver"
         self.__root.protocol("WM_DELETE_WINDOW", self.close)
+        self.__root.geometry(f"{width}x{height}+100+200")
 
         self.__canvas = Canvas(self.__root, bg="white", height=height, width=width)
 
-        self.__canvas.pack(fill="both", expand=1)
+        self.__canvas.pack(fill="both", expand=1, side="top")
 
         self.__window_running = False
 
     def redraw(self):
+        
         self.__root.update_idletasks()
 
         self.__root.update()
