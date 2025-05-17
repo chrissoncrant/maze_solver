@@ -8,7 +8,7 @@ import random
 def main():
     print("Main Function Running...")
 
-    win = Window(1200, 600)
+    win = Window(1200, 1200)
 
 
     # DRAW LINE TEST
@@ -27,7 +27,8 @@ def main():
     # c_1.draw_move(c_2, True)
 
     # DRAW MAZE TEST
-    maze = Maze(50, 10, 3, 2, 50, 100, win)
+    maze = Maze(50, 10, 12, 12, 50, 50, win)
+
 
 
     

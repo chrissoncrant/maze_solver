@@ -11,7 +11,13 @@
 - To Determine Entrance:
     - First cell drawn is the entrance.
     - Choose random number and make that be the entrance.
-        - Keep track of number of cells drawn and when that cell number matches, 
+        - Keep track of number of cells drawn and when that cell number matches
+
+
+## Data Structure
+- When a maze is intialized, cells are created and are organized in a list of lists. There is a list of columns and each column list contains the rows of Cells.
+- Essentially this will be treated as a Graph since each cell will have edges and vertices and this will aid in creating the maze itself.
+- To craft the maze itself, a depth-first search algorithm will be used.
 
 
 ## Cell Class

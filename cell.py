@@ -10,6 +10,7 @@ class Cell():
         self._y1 = None
         self._x2 = None
         self._y2 = None
+        self._visited = False
         self._win = win
 
     def draw(self, _x1, _y1, _x2, _y2):
